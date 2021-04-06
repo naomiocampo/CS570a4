@@ -5,6 +5,7 @@
 //stop production once 100 candies are produced
 // exit after 100 candies
 
+// PRODUCE DATA 2 threads, one with specific requirements
 pseudo code
 define capacity of queue ( 10 elements )
  
