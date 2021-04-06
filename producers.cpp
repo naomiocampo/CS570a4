@@ -7,6 +7,10 @@
 
 pseudo code
 define capacity of queue ( 10 elements )
+ 
+ (  must be separate )
+ frogbites thread 1
+ escargot thread 2
   
   
    if ( frog bites <= 3 )
