@@ -24,9 +24,25 @@ define capacity of queue ( 10 elements )
      continue
     if ( candy production !> 100 )
       STOP
+ 
+ /* void *producer(void *pno)
+{   
+    int item;
+    for(int i = 0; i < MaxItems; i++) {
+        item = rand(); // Produce an random item
+        sem_wait(&empty);
+        pthread_mutex_lock(&mutex);
+        buffer[in] = item;
+        printf("Producer %d: Insert Item %d at %d\n", *((int *)pno),buffer[in],in);
+        in = (in+1)%BufferSize;
+        pthread_mutex_unlock(&mutex);
+        sem_post(&full);
+    }
+}
+     */
      
    
-queue
+/*queue
 initialize variables:
   integer *array ( stores queue elements )
   integer capacity ( max capacity of queue )
@@ -42,5 +58,6 @@ initialize variables:
  queue::queue(int size){}
  
   queue destructor
+  */
   
   
